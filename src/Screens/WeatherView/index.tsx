@@ -3,7 +3,6 @@ import React, {useEffect, useState} from 'react';
 import {FlatList, Alert, Platform} from 'react-native';
 import Geolocation from 'react-native-geolocation-service';
 import axios from 'axios';
-
 import styled from 'styled-components/native';
 
 const Container = styled.SafeAreaView`
